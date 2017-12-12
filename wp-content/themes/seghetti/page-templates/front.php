@@ -5,16 +5,18 @@ Template Name: Front
 get_header(); ?>
 
 <header class="front-hero" role="banner">
-	<div class="marketing">
-		<div class="tagline">
-			<h1><?php bloginfo( 'name' ); ?></h1>
-			<h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
-			<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
-		</div>
 
-		<div class="watch">
-			<span id="stargazers"><a href="https://github.com/olefredrik/foundationpress">1.5k stargazers</a></span>
-			<span id="twitter"><a href="https://twitter.com/olefredrik">@olefredrik</a></span>
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
+			<div class="cell medium-7">
+				<div class="hero-text">
+					<span class="small-intro">What we do</span>
+					<h1>Take the edge<br>
+					<b>Off your taxes</b></h1>
+					<p>There are few things that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
+					<a href="#" class="button">Contact Us</a><a href="#" class="button ghost">Learn More</a>
+				</div>
+			</div>
 		</div>
 	</div>
 
