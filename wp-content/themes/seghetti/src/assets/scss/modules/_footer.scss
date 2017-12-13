@@ -1,13 +1,12 @@
 .footer-container {
-  margin: 0 auto;
-  border-top: 1px solid $medium-gray;
-  margin-top: rem-calc(60);
+  background: $dark-blue;
+  color: $white;
 }
 
 .footer {
   @include xy-grid-container;
   @include xy-grid;
-  padding: rem-calc(30) 0;
+  padding: 60px 0;
 
   section {
     @include xy-cell(auto);
@@ -17,5 +16,32 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+  a {
+    color: $white;
+  }
+  #foot1 {
+    img {
+      margin-bottom: 15px;
+    }
+  }
+  #foot2 {
+
+  }
+  #foot3 {
+    address {
+      font-style: normal;
+    }
+  }
+  #foot4 {
+    ul {
+      li {
+        display: inline-block;
+        padding-right: 15px;
+        &:last-of-type {
+          padding: 0px;
+        }
+      }
+    }
   }
 }
