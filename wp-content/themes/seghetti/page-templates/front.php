@@ -140,5 +140,19 @@ get_header(); ?>
 	</div>
 </section>
 
+<section class="meet-the-team">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
+			<div class="cell medium-4">
+				<span class="small-intro">Get to know us</span>
+				<h2>Meet our team</h2>
+				<div class="seperator"></div>
+				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
+				<a href="#">meet the team</a>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <?php get_footer();

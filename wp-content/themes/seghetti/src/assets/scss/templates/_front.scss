@@ -58,3 +58,23 @@
     text-transform: uppercase;
   }
 }
+
+.meet-the-team {
+  background: url('../images/bg_meet-the-team@2x.jpg') bottom center;
+  background-size: cover;
+  background-position: center;
+  height: 490px;
+  color: $white;
+  h2 {
+    color: $white;
+  }
+  p {
+    max-width: 60%;
+  }
+  a {
+    color: $yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+}
