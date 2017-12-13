@@ -4,7 +4,7 @@ Template Name: Services
 */
 get_header(); ?>
 
-<header class="front-hero" role="banner">
+<header class="inner-hero" role="banner">
 
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
@@ -19,7 +19,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-	</div>f
+	</div>
 
 </header>
 
