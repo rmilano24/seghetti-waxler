@@ -25,7 +25,7 @@
 
 	<header class="site-header" role="banner">
 
-		<div class="grid-x grid-margin-x">
+		<div class="grid-x grid-padding-x">
 		  <div class="small-4 cell">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/seghettiwaxler.svg" alt="Seghetti Waxler" /></a>
 			</div>

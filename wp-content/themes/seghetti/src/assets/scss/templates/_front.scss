@@ -6,12 +6,17 @@
     p {
       font-size: 20px;
       line-height: 26px;
+      margin-bottom: 35px;
+    }
+    .ghost {
+      margin-left: 20px;
     }
   }
   .marketing {
     @include xy-grid-container(55rem);
     @include xy-grid;
   }
+
 
   @include breakpoint(small) {
     background: url('../images/bg_hero.jpg') bottom center;
@@ -31,50 +36,8 @@
     height: rem-calc(685);
     margin: 0 0 rem-calc(72);
   }
+}
 
-  .watch {
-    @include breakpoint(small) {
-      @include xy-cell(7);
-    }
-
-    @include breakpoint(medium) {
-      @include xy-cell(12);
-    }
-
-    a {
-      color: #B4C9D1;
-      cursor: pointer;
-      font-weight: 400;
-      margin-right: rem-calc(20);
-    }
-
-    a:hover {
-      color: #fff;
-    }
-
-    #stargazers {
-      :before {
-        content: "\f09b";
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: inherit;
-        color: #B4C9D1;
-        margin-right: rem-calc(8);
-      }
-    }
-
-    #twitter {
-      :before {
-        content: "\f099";
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: inherit;
-        color: #B4C9D1;
-        margin-right: rem-calc(8);
-      }
-    }
-
-  }
+#reasons {
+  margin-top: 50px;
 }

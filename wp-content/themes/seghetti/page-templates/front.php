@@ -13,7 +13,8 @@ get_header(); ?>
 					<span class="small-intro">What we do</span>
 					<h1>Take the edge<br>
 					<b>Off your taxes</b></h1>
-					<p>There are few things that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
+					<div class="seperator"></div>
+					<p class="large">There are few <thf></thf>ings that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
 					<a href="#" class="button">Contact Us</a><a href="#" class="button ghost">Learn More</a>
 				</div>
 			</div>
@@ -22,36 +23,72 @@ get_header(); ?>
 
 </header>
 
-<?php do_action( 'foundationpress_before_content' ); ?>
-<?php while ( have_posts() ) : the_post(); ?>
+
 <section class="intro" role="main">
-	<div class="fp-intro">
 
-		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-			<div class="entry-content">
-				<?php the_content(); ?>
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
+			<div class="cell medium-6">
+				<span class="small-intro">A different kind of tax experience</span>
+				<h2>Our industry has forgotten about the client.</h2>
+				<div class="seperator"></div>
+				<p class="large">There are few things that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
 			</div>
-			<footer>
-				<?php
-					wp_link_pages(
-						array(
-							'before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ),
-							'after'  => '</p></nav>',
-						)
-					);
-				?>
-				<p><?php the_tags(); ?></p>
-			</footer>
-			<?php do_action( 'foundationpress_page_before_comments' ); ?>
-			<?php comments_template(); ?>
-			<?php do_action( 'foundationpress_page_after_comments' ); ?>
+			<div class="cell medium-6">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/seghetti-team@2x.jpg" alt="Seghetti Waxler Team" />
+			</div>
 		</div>
+	</div>
 
+	<div class="grid-container" id="reasons">
+		<div class="grid-x grid-padding-x">
+			<div class="cell medium-4">
+
+				<div class="grid-x grid-padding-x">
+					<div class="cell medium-4">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/approachable@2x.jpg" alt="Seghetti Waxler" />
+					</div>
+					<div class="cell medium-8">
+						<div class="number">01<span class="yellow">_</span></div>
+						<h3>Approachable</h3>
+						<p>Seghetti Waxler’s CPAs and staff are friendly and speak in plain language. The tax code is complex. You need a firm that you feel comfortable working with to ensure your issues are understood.</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="cell medium-4">
+
+				<div class="grid-x grid-padding-x">
+					<div class="cell medium-4">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/approachable@2x.jpg" alt="Seghetti Waxler" />
+					</div>
+					<div class="cell medium-8">
+						<div class="number">02<span class="yellow">_</span></div>
+						<h3>Approachable</h3>
+						<p>Seghetti Waxler’s CPAs and staff are friendly and speak in plain language. The tax code is complex. You need a firm that you feel comfortable working with to ensure your issues are understood.</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="cell medium-4">
+
+				<div class="grid-x grid-padding-x">
+					<div class="cell medium-4">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/approachable@2x.jpg" alt="Seghetti Waxler" />
+					</div>
+					<div class="cell medium-8">
+						<div class="number">01<span class="yellow">_</span></div>
+						<h3>Approachable</h3>
+						<p>Seghetti Waxler’s CPAs and staff are friendly and speak in plain language. The tax code is complex. You need a firm that you feel comfortable working with to ensure your issues are understood.</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
 	</div>
 
 </section>
-<?php endwhile;?>
 
 
 <?php get_footer();
