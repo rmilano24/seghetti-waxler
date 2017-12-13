@@ -39,3 +39,22 @@
 #reasons {
   margin-top: 50px;
 }
+
+.testimonials {
+  text-align: center;
+  blockquote {
+    color: $blue;
+    font-size: 40px;
+    line-height: 49px;
+    max-width: 830px;
+    margin: 0 auto 35px auto;
+    text-align: center;
+    border-left: none;
+  }
+  .person {
+    color: $black;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+}

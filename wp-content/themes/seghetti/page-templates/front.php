@@ -127,5 +127,18 @@ get_header(); ?>
 
 </section>
 
+<section class="testimonials">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
+			<div class="cell medium-12">
+				<blockquote>
+					As a professional athlete and model, my tax and financial situation can get very complicated. I rely on Seghetti Waxler to help with my strategic tax planning and to stay out of trouble with the IRS.
+				</blockquote>
+				<div class="person"><span class="yellow">—</span> Luke Rockhold, <b>UFC® Fighter, Model</b></div>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <?php get_footer();
