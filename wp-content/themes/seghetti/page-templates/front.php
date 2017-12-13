@@ -24,7 +24,7 @@ get_header(); ?>
 </header>
 
 
-<section class="intro" role="main">
+<section class="intro">
 
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
@@ -85,6 +85,43 @@ get_header(); ?>
 
 			</div>
 
+		</div>
+	</div>
+
+</section>
+
+<section class="serives bg_blue">
+
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
+			<div class="cell medium-3">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
+					<h4>Tax Preparation</h4>
+					<div class="seperator"></div>
+					<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
+					<a href="#">Learn More</a>
+			</div>
+			<div class="cell medium-3">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
+				<h4>Tax Preparation</h4>
+				<div class="seperator"></div>
+				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
+				<a href="#">Learn More</a>
+			</div>
+			<div class="cell medium-3">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
+				<h4>Tax Preparation</h4>
+				<div class="seperator"></div>
+				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
+				<a href="#">Learn More</a>
+			</div>
+			<div class="cell medium-3">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
+				<h4>Tax Preparation</h4>
+				<div class="seperator"></div>
+				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
+				<a href="#">Learn More</a>
+			</div>
 		</div>
 	</div>
 
