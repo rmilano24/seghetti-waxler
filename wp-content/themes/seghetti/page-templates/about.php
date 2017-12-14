@@ -91,33 +91,33 @@ get_header(); ?>
 
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
-			<div class="cell medium-3">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
-					<h4>Tax Preparation</h4>
-					<div class="seperator"></div>
-					<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
-					<a href="#">Learn More</a>
+			<div class="cell medium-4">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
+					<h4>Tom Castillo</h4>
+					<p>CPA <span class="yellow">//</span> CVA</p>
+					<a data-open="exampleModal1">Read Bio</a>
+
+					<div class="reveal" id="exampleModal1" data-reveal>
+					  <h1>Awesome. I Have It.</h1>
+					  <p class="lead">Your couch. It is mine.</p>
+					  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+					  <button class="close-button" data-close aria-label="Close modal" type="button">
+					    <span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+
 			</div>
-			<div class="cell medium-3">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
-				<h4>Tax Preparation</h4>
-				<div class="seperator"></div>
-				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
-				<a href="#">Learn More</a>
+			<div class="cell medium-4">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
+				<h4>Tom Castillo</h4>
+				<p>CPA <span class="yellow">//</span> CVA</p>
+				<a href="#">Read Bio</a>
 			</div>
-			<div class="cell medium-3">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
-				<h4>Tax Preparation</h4>
-				<div class="seperator"></div>
-				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
-				<a href="#">Learn More</a>
-			</div>
-			<div class="cell medium-3">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
-				<h4>Tax Preparation</h4>
-				<div class="seperator"></div>
-				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
-				<a href="#">Learn More</a>
+			<div class="cell medium-4">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
+				<h4>Tom Castillo</h4>
+				<p>CPA <span class="yellow">//</span> CVA</p>
+				<a href="#">Read Bio</a>
 			</div>
 		</div>
 	</div>

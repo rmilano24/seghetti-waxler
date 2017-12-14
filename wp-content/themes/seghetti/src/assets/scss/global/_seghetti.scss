@@ -81,3 +81,11 @@ section {
     font-weight: bold;
   }
 }
+
+
+.reveal-overlay {
+  background-color: rgba(7, 97, 127, 0.89);
+  .reveal {
+    border: none;
+  }
+}
