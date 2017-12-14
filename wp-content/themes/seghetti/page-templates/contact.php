@@ -32,8 +32,8 @@ get_header(); ?>
 				<p class="large">There are few things that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
 				<a href="#" class="button">Learn More</a>
 			</div>
-			<div class="cell medium-6 bg_blue">
-
+			<div class="cell medium-6 bg_blue" id="contact-form">
+				<?php echo do_shortcode("[contact-form-7 id='18' title='Contact Form']"); ?>
 			</div>
 		</div>
 
