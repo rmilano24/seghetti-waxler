@@ -97,13 +97,22 @@ get_header(); ?>
 					<p>CPA <span class="yellow">//</span> CVA</p>
 					<a data-open="exampleModal1">Read Bio</a>
 
-					<div class="reveal" id="exampleModal1" data-reveal>
-					  <h1>Awesome. I Have It.</h1>
-					  <p class="lead">Your couch. It is mine.</p>
-					  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-					  <button class="close-button" data-close aria-label="Close modal" type="button">
-					    <span aria-hidden="true">&times;</span>
-					  </button>
+					<div class="reveal large" id="exampleModal1" data-reveal>
+
+						<div class="grid-x grid-padding-x">
+							<div class="cell medium-5">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
+ 							</div>
+							<div class="cell medium-7">
+								<p>CPA <span class="yellow">//</span> CVA</p>
+								<h4>Tom Castillo</h4>
+								<div class="seperator"></div>
+								<p>Tom specializes in finance and taxation for small businesses, focusing on strategic planning, tax efficiency, and real estate. He also works with many individuals who hold real estate, receive equity compensation (RSUs, ESPPs, ISOs, NSOs), and have interests in pass-through businesses.
+
+Outside of work, Tom reads as much as possible and tries unsuccessfully to keep up with his 3-year-old daughter and 4-year-old German Shorthaired Pointer. He’s an avid Bay Area sports fan, but not quite as big a fan as his wife, Lori.</p>
+ 							</div>
+						</div>
+
 					</div>
 
 			</div>
