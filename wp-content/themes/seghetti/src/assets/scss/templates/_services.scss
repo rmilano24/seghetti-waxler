@@ -1,0 +1,14 @@
+.services {
+  padding: 0;
+  .bg_service-image {
+    min-height: 695px
+  }
+  #tax-prep {
+    background: url('../images/services/tax-preparation@2x.jpg') center center;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .service-content {
+    padding: 100px;
+  }
+}

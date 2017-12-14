@@ -17,6 +17,48 @@
   }
 }
 
+// inner page header
+
+.inner-hero {
+  .hero-text {
+    margin-top: 150px;
+    color: $white;
+    p {
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 35px;
+    }
+    .ghost {
+      margin-left: 20px;
+    }
+  }
+  .marketing {
+    @include xy-grid-container(55rem);
+    @include xy-grid;
+  }
+
+
+  @include breakpoint(small) {
+    background: url('../images/bg_hero.jpg') bottom center;
+    background-size: cover;
+    background-position: center center;
+    padding: rem-calc(65%) 0;
+    height: auto;
+    position: relative;
+    text-align: left;
+  }
+
+  @include breakpoint(medium) {
+    background: url('../images/bg_hero.jpg') bottom center;
+    background-size: cover;
+    background-position: center;
+    max-height: 465px;
+  }
+}
+
+
+
+
 .seperator {
   background: $yellow;
   width: 90px;
