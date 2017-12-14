@@ -10,5 +10,12 @@
   }
   .service-content {
     padding: 100px;
+    &:nth-child(even) {
+      background: url('../images/bg_texture.png') top left repeat;
+      color: $white;
+      h2 {
+        color: $white;
+      }
+    }
   }
 }
