@@ -82,6 +82,18 @@ section {
   }
 }
 
+.leadin {
+  text-align: center;
+  display: block;
+  h2 {
+    color: $white;
+  }
+  .seperator {
+    margin: 25px auto 30px auto;
+    width: 90px;
+  }
+}
+
 
 .reveal-overlay {
   background-color: rgba(7, 97, 127, 0.89);

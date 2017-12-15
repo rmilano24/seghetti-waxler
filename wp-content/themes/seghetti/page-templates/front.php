@@ -93,6 +93,14 @@ get_header(); ?>
 <section class="serives bg_blue">
 
 	<div class="grid-container">
+		<div class="grid-x grid-padding-x leadin">
+			<span class="small-intro">How we can help you</span>
+			<h2>Our Services</h2>
+			<div class="seperator"></div>
+		</div>
+	</div>
+
+	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 			<div class="cell medium-3">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/business-valutions@2x.jpg" alt="Seghetti Waxler" />
