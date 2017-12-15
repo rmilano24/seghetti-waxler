@@ -17,6 +17,12 @@
   }
 }
 
+.menu-item-type-custom {
+  a::first-letter {
+    color: $yellow;
+  }
+}
+
 // inner page header
 
 .inner-hero {
