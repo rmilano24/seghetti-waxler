@@ -7,6 +7,12 @@
   @include xy-grid-container;
   @include xy-grid;
   padding: 60px 0;
+  .medium-3 {
+    width: 20%;
+    &:first-of-type {
+      width: 40%;
+    }
+  }
 
   section {
     @include xy-cell(auto);

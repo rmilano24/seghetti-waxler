@@ -90,6 +90,14 @@ get_header(); ?>
 <section id="meet-the-team" class="bg_blue">
 
 	<div class="grid-container">
+		<div class="grid-x grid-padding-x leadin">
+			<span class="small-intro">Get to know us</span>
+			<h2>Our Team</h2>
+			<div class="seperator"></div>
+		</div>
+	</div>
+
+	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 			<div class="cell medium-4">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
