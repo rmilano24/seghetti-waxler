@@ -10,6 +10,12 @@
     }
     .ghost {
       margin-left: 20px;
+      background: transparent;
+      border: 2px solid $yellow;
+      &:hover {
+        background: $yellow;
+        color: $white;
+      }
     }
   }
   .marketing {
