@@ -45,50 +45,70 @@ get_header(); ?>
 		</div>
 	</div>
 
+	<?php
+			 $args = array(
+				 'post_type' => 'qualities',
+				 'posts_per_page' => 5
+			 );
+			 $my_qualities = new WP_Query( $args );
+			 if( $my_qualities->have_posts() ) {
+				 while( $my_qualities ->have_posts() ) {
+					 $my_qualities->the_post();
+			?>
+
+
+
+			<?php
+					}
+				}
+				else {
+					echo 'There are currently no qualities added.';
+				}
+			?>
+		 <?php wp_reset_query(); ?>
+
+
+
+
 	<div class="grid-container" id="reasons">
 		<div class="grid-x grid-padding-x">
-			<div class="cell medium-4">
 
-				<div class="grid-x grid-padding-x">
-					<div class="cell medium-4">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/approachable@2x.jpg" alt="Seghetti Waxler" />
-					</div>
-					<div class="cell medium-8">
-						<div class="number">01<span class="yellow">_</span></div>
-						<h3>Approachable</h3>
-						<p>Seghetti Waxler’s CPAs and staff are friendly and speak in plain language. The tax code is complex. You need a firm that you feel comfortable working with to ensure your issues are understood.</p>
-					</div>
-				</div>
 
-			</div>
-			<div class="cell medium-4">
+				<?php
+						 $args = array(
+							 'post_type' => 'qualities',
+							 'posts_per_page' => 3
+						 );
+						 $my_qualities = new WP_Query( $args );
+						 if( $my_qualities->have_posts() ) {
+							 while( $my_qualities ->have_posts() ) {
+								 $my_qualities->the_post();
+						?>
 
-				<div class="grid-x grid-padding-x">
-					<div class="cell medium-4">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/reliable@2x.jpg" alt="Seghetti Waxler" />
-					</div>
-					<div class="cell medium-8">
-						<div class="number">02<span class="yellow">_</span></div>
-						<h3>Approachable</h3>
-						<p>Seghetti Waxler’s CPAs and staff are friendly and speak in plain language. The tax code is complex. You need a firm that you feel comfortable working with to ensure your issues are understood.</p>
-					</div>
-				</div>
+						<div class="cell medium-4">
 
-			</div>
-			<div class="cell medium-4">
+							<div class="grid-x grid-padding-x">
+								<div class="cell medium-4">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/approachable@2x.jpg" alt="Seghetti Waxler" />
+								</div>
+								<div class="cell medium-8">
+									<div class="number"><?php the_field('number'); ?><span class="yellow">_</span></div>
+									<h3><?php the_title(); ?></h3>
+									<?php the_content(); ?>
+								</div>
+							</div>
 
-				<div class="grid-x grid-padding-x">
-					<div class="cell medium-4">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/responsive@2x.jpg" alt="Seghetti Waxler" />
-					</div>
-					<div class="cell medium-8">
-						<div class="number">01<span class="yellow">_</span></div>
-						<h3>Approachable</h3>
-						<p>Seghetti Waxler’s CPAs and staff are friendly and speak in plain language. The tax code is complex. You need a firm that you feel comfortable working with to ensure your issues are understood.</p>
-					</div>
-				</div>
+						</div>
 
-			</div>
+						<?php
+								}
+							}
+							else {
+								echo 'There are currently no qualities added.';
+							}
+						?>
+					 <?php wp_reset_query(); ?>
+
 
 		</div>
 	</div>
