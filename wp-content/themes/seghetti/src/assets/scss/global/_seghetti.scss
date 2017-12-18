@@ -13,6 +13,14 @@
       color: $white;
       text-transform: uppercase;
       letter-spacing: 4px;
+      &:hover {
+        color: $yellow;
+      }
+    }
+    .is-active {
+      a {
+        border-bottom: 3px solid $yellow;
+      }
     }
   }
 }

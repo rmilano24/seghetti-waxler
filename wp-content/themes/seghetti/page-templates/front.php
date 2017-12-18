@@ -15,7 +15,7 @@ get_header(); ?>
 					<b>Off your taxes</b></h1>
 					<div class="seperator"></div>
 					<p class="large">There are few <thf></thf>ings that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
-					<a href="#" class="button">Contact Us</a><a href="#" class="button ghost">Learn More</a>
+					<a href="/contact-us/" class="button">Contact Us</a><a href="/about-us/" class="button ghost">Learn More</a>
 				</div>
 			</div>
 		</div>
@@ -156,7 +156,7 @@ get_header(); ?>
 				<h2>Meet our team</h2>
 				<div class="seperator"></div>
 				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
-				<a href="#">meet the team</a>
+				<a href="/about-us/">meet the team</a>
 			</div>
 		</div>
 	</div>

@@ -88,6 +88,18 @@
 <?php endif; ?>
 
 <?php wp_footer(); ?>
+
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/classie.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/demo1.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+	$(this).toggleClass('open');
+});
+});
+</script>
+
 <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
 //]]></script>

@@ -15,6 +15,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
+		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/modernizr.custom.js.js"></script>
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -35,7 +36,28 @@
 
 						<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
 				</nav>
+
 		  </div>
 		</div>
 
 </header>
+<!-- <a id="trigger-overlay" type="button">
+<div id="nav-icon1">
+	<span></span>
+	<span></span>
+	<span></span>
+</div>
+</a> -->
+<!-- open/close -->
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
