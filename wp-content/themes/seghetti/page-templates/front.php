@@ -216,11 +216,11 @@ get_header(); ?>
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 			<div class="cell medium-4">
-				<span class="small-intro">Get to know us</span>
-				<h2>Meet our team</h2>
+				<span class="small-intro">G<?php the_field('section_three_small_text'); ?></span>
+				<h2><?php the_field('section_three_header'); ?></h2>
 				<div class="seperator"></div>
-				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
-				<a href="/about-us/">meet the team</a>
+				<?php the_field('section_three_content'); ?>
+				<a href="<?php the_field('section_three_page_link'); ?>"><?php the_field('section_three_link_text'); ?></a>
 			</div>
 		</div>
 	</div>
