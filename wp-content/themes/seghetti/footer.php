@@ -89,8 +89,10 @@
 
 <?php wp_footer(); ?>
 
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/classie.js"></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/demo1.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/slick.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -98,6 +100,16 @@ $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
 	$(this).toggleClass('open');
 });
 });
+</script>
+
+<script type="text/javascript">
+	$(document).on('ready', function() {
+		$(".lazy").slick({
+			lazyLoad: 'ondemand', // ondemand progressive anticipated
+			infinite: true,
+			dots: true
+		});
+	});
 </script>
 
 <script id="__bs_script__">//<![CDATA[
