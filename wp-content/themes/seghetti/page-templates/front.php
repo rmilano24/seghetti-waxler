@@ -149,7 +149,7 @@ get_header(); ?>
 							<h4><?php the_title(); ?></h4>
 							<div class="seperator"></div>
 							<p><?php the_field('thumbnail_snippet'); ?></p>
-							<a href="#">Learn More</a>
+							<a href="<?php the_field('link_to_service_page'); ?>">Learn More</a>
 					</div>
 
 					<?php
@@ -179,22 +179,33 @@ get_header(); ?>
 			<div class="cell medium-12">
 				<div class="lazy slider">
 
-					<div>
-						<blockquote>
-							As a professional athlete and model, my tax and financial situation can get very complicated. I rely on Seghetti Waxler to help with my strategic tax planning and to stay out of trouble with the IRS.
-						</blockquote>
-						<div class="person"><span class="yellow">—</span> Luke Rockhold, <b>UFC® Fighter, Model</b></div>					</div>
-					<div>
-						<blockquote>
-							As a professional athlete and model, my tax and financial situation can get very complicated. I rely on Seghetti Waxler to help with my strategic tax planning and to stay out of trouble with the IRS.
-						</blockquote>
-						<div class="person"><span class="yellow">—</span> Luke Rockhold, <b>UFC® Fighter, Model</b></div>					</div>
-					<div>
-						<blockquote>
-							As a professional athlete and model, my tax and financial situation can get very complicated. I rely on Seghetti Waxler to help with my strategic tax planning and to stay out of trouble with the IRS.
-						</blockquote>
-						<div class="person"><span class="yellow">—</span> Luke Rockhold, <b>UFC® Fighter, Model</b></div>					</div>
-				</div>
+					<?php
+							 $args = array(
+								 'post_type' => 'testimonials',
+								 'posts_per_page' => 5
+							 );
+							 $my_testimonials = new WP_Query( $args );
+							 if( $my_testimonials->have_posts() ) {
+								 while( $my_testimonials ->have_posts() ) {
+									 $my_testimonials->the_post();
+							?>
+
+							<div>
+								<blockquote>
+									<?php the_content(); ?>
+								</blockquote>
+								<div class="person"><span class="yellow">—</span> <?php the_title(); ?>, <b><?php the_field('occupation'); ?></b></div>
+							</div>
+
+							<?php
+									}
+								}
+								else {
+									echo 'There are currently no testimonials added.';
+								}
+							?>
+						 <?php wp_reset_query(); ?>
+
 
 			</div>
 		</div>

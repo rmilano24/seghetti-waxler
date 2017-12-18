@@ -71,6 +71,11 @@
     margin: 0 auto 35px auto;
     text-align: center;
     border-left: none;
+    p {
+      color: $blue;
+      font-size: 40px;
+      line-height: 49px;
+    }
   }
   .person {
     color: $black;
