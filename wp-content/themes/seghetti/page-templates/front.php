@@ -14,7 +14,7 @@ get_header(); ?>
 					<h1>Take the edge<br>
 					<b>Off your taxes</b></h1>
 					<div class="seperator"></div>
-					<p class="large">There are few <thf></thf>ings that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
+					<p class="large">There are few tings that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
 					<a href="/contact-us/" class="button">Contact Us</a><a href="/about-us/" class="button ghost">Learn More</a>
 				</div>
 			</div>
@@ -32,7 +32,7 @@ get_header(); ?>
 				<span class="small-intro">A different kind of tax experience</span>
 				<h2>Our industry has forgotten about the client.</h2>
 				<div class="seperator"></div>
-				<p class="large">There are few things that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
+				<p>Our industry has forgotten about the client. Your CPA doesn’t sound happy to hear from you, and they’re slow to respond. On top of this, you’re not even sure you’re receiving the best advice. Seghetti Waxler believes it doesn’t have to be this way. Our firm is predicated on client service, ensuring that you receive the best quality advice from the friendliest staff in a timely fashion.</p>
 			</div>
 			<div class="cell medium-6">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/seghetti-team@2x.jpg" alt="Seghetti Waxler Team" />
@@ -60,7 +60,7 @@ get_header(); ?>
 
 				<div class="grid-x grid-padding-x">
 					<div class="cell medium-4">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/approachable@2x.jpg" alt="Seghetti Waxler" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/reliable@2x.jpg" alt="Seghetti Waxler" />
 					</div>
 					<div class="cell medium-8">
 						<div class="number">02<span class="yellow">_</span></div>
@@ -74,7 +74,7 @@ get_header(); ?>
 
 				<div class="grid-x grid-padding-x">
 					<div class="cell medium-4">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/approachable@2x.jpg" alt="Seghetti Waxler" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/responsive@2x.jpg" alt="Seghetti Waxler" />
 					</div>
 					<div class="cell medium-8">
 						<div class="number">01<span class="yellow">_</span></div>

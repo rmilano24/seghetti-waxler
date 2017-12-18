@@ -13,18 +13,18 @@
 	<footer class="footer">
 		<div class="grid-container">
 			<div class="grid-x grid-padding-x">
-				<div class="cell medium-3" id="foot1">
+				<div class="cell small-12 medium-3" id="foot1">
 						<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/seghettiwaxler.svg" alt="Seghetti Waxler" />
 						<p>Without trust, some of the simplest tasks become almost insurmountable. You've done your job and achieved success in your career. Now you need someone whom you can trust to help improve upon that success or plan the transition into the next phase of your life. <b>We can help</b>.</p>
 				</div>
-				<div class="cell medium-3" id="foot2">
+				<div class="cell small-12 medium-3" id="foot2">
 					<h4>GET IN TOUCH</h4>
 					<ul>
 					  <li><a class="phone" href="tel:1831425767"><span class="yellow">+</span>1 831 425 767</a></li>
 					  <li><a class="email" href="mailto:information@swcgcpa.com">information<span class="yellow">@</span>swcgcpa.com</a></li>
 					</ul>
 				</div>
-				<div class="cell medium-3" id="foot3">
+				<div class="cell small-12 medium-3" id="foot3">
 					<h4>Location</h4>
           <a target="_blank" href="https://www.google.com/maps/place/Seghetti,+Waxler,+Castillo+%26+Gonzalez/@36.9840777,-121.9580202,15z/data=!4m5!3m4!1s0x0:0x2ba5eff36c2dfd5d!8m2!3d36.9840777!4d-121.9580202">
             <address>
@@ -33,7 +33,7 @@
   					</address>
           </a>
 				</div>
-				<div class="cell medium-3" id="foot4">
+				<div class="cell small-12 medium-3" id="foot4">
 					<h4>We’re social</h4>
           <ul>
             <li><a href="">

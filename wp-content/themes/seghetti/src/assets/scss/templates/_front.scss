@@ -43,6 +43,12 @@
 }
 
 .intro {
+  .medium-6 {
+    p {
+      font-size: 16px;
+      padding-right: 25%;
+    }
+  }
   img {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
   }
