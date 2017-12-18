@@ -10,12 +10,13 @@ get_header(); ?>
 		<div class="grid-x grid-padding-x">
 			<div class="cell medium-8 large-6">
 				<div class="hero-text">
-					<div class="small-intro">What we do</div>
-					<h1>Take the edge<br>
-					<b>Off your taxes</b></h1>
+					<div class="small-intro"><?php the_field('hero_small_text'); ?></div>
+					<?php the_field('hero_header'); ?>
 					<div class="seperator"></div>
-					<p class="large">There are few tings that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
-					<a href="/contact-us/" class="button">Contact Us</a><a href="/about-us/" class="button ghost">Learn More</a>
+					<div class="large">
+						<?php the_field('hero_header_content'); ?>
+					</div>
+					<a href="<?php the_field('hero_button_one_page_link'); ?>" class="button"><?php the_field('hero_button_one_text'); ?></a><a href="<?php the_field('hero_button_two_page_link'); ?>" class="button ghost"><?php the_field('hero_button_two_text'); ?></a>
 				</div>
 			</div>
 		</div>
@@ -29,13 +30,17 @@ get_header(); ?>
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 			<div class="cell medium-6">
-				<span class="small-intro">A different kind of tax experience</span>
-				<h2>Our industry has forgotten about the client.</h2>
+				<span class="small-intro"><?php the_field('section_one_small_text'); ?></span>
+				<?php the_field('section_one_header'); ?>
 				<div class="seperator"></div>
-				<p>Our industry has forgotten about the client. Your CPA doesn’t sound happy to hear from you, and they’re slow to respond. On top of this, you’re not even sure you’re receiving the best advice. Seghetti Waxler believes it doesn’t have to be this way. Our firm is predicated on client service, ensuring that you receive the best quality advice from the friendliest staff in a timely fashion.</p>
+				<?php the_field('section_one_content'); ?>
 			</div>
 			<div class="cell medium-6">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/seghetti-team@2x.jpg" alt="Seghetti Waxler Team" />
+				<?php
+						$image = get_field('section_one_image');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+						<?php endif; ?>
 			</div>
 		</div>
 	</div>
@@ -130,6 +135,12 @@ get_header(); ?>
 				<p>Let Seghetti Waxler’s CPAs and staff ease the burden of your annual tax filings.</p>
 				<a href="#">Learn More</a>
 			</div>
+		</div>
+	</div>
+
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x cta">
+			<a class="button" href="/services/">Learn More</a>
 		</div>
 	</div>
 
