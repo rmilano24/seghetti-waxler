@@ -163,3 +163,12 @@ a.before:hover:before,a.after:hover:after{
 
   }
 }
+
+.slider {
+  background: $white;
+  .slick-active {
+     button:before {
+      color: $yellow;
+    }
+  }
+}
