@@ -4,6 +4,8 @@
 }
 
 .footer {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   @include xy-grid-container;
   @include xy-grid;
   padding: 60px 0;
