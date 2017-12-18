@@ -26,6 +26,7 @@ h1 {
   text-transform: uppercase;
   font-size: 80px;
   line-height: 68px;
+  font-family: 'akrobat';
 }
 
 .small-intro {
@@ -33,6 +34,8 @@ h1 {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 4px;
+  font-family: 'akrobat';
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -40,4 +43,23 @@ h2 {
   text-transform: uppercase;
   font-size: 40px;
   line-height: 40px;
+  font-family: 'akrobat';
+}
+
+h3 {
+  font-family: 'akrobat';
+  color: $yellow;
+  letter-spacing: 3px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'akrobat';
+}
+
+.number {
+  color: $black;
+  font-size: 18px;
+  font-weight: bold;
 }

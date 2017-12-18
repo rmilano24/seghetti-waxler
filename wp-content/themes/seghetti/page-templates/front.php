@@ -8,9 +8,9 @@ get_header(); ?>
 
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
-			<div class="cell medium-7">
+			<div class="cell medium-8 large-6">
 				<div class="hero-text">
-					<span class="small-intro">What we do</span>
+					<div class="small-intro">What we do</div>
 					<h1>Take the edge<br>
 					<b>Off your taxes</b></h1>
 					<div class="seperator"></div>
