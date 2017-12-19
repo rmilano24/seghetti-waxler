@@ -122,43 +122,54 @@ get_header(); ?>
 
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
-			<div class="cell medium-4">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
-					<h4>Tom Castillo</h4>
-					<p>CPA <span class="yellow">//</span> CVA</p>
-					<a data-open="exampleModal1">Read Bio</a>
 
-					<div class="reveal large" id="exampleModal1" data-reveal>
+			<?php
+					 $args = array(
+						 'post_type' => 'team_members',
+						 'posts_per_page' => 8
+					 );
+					 $my_team_members = new WP_Query( $args );
+					 if( $my_team_members->have_posts() ) {
+						 while( $my_team_members ->have_posts() ) {
+							 $my_team_members->the_post();
+					?>
 
-						<div class="grid-x grid-padding-x">
-							<div class="cell medium-5">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
- 							</div>
-							<div class="cell medium-7">
-								<p>CPA <span class="yellow">//</span> CVA</p>
-								<h4>Tom Castillo</h4>
-								<div class="seperator"></div>
-								<p>Tom specializes in finance and taxation for small businesses, focusing on strategic planning, tax efficiency, and real estate. He also works with many individuals who hold real estate, receive equity compensation (RSUs, ESPPs, ISOs, NSOs), and have interests in pass-through businesses.
+					<div class="cell medium-4">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
+							<h4><?php the_title(); ?></h4>
+							<p>CPA <span class="yellow">//</span> CVA</p>
+							<a data-open="exampleModal1">Read Bio</a>
 
-Outside of work, Tom reads as much as possible and tries unsuccessfully to keep up with his 3-year-old daughter and 4-year-old German Shorthaired Pointer. He’s an avid Bay Area sports fan, but not quite as big a fan as his wife, Lori.</p>
- 							</div>
-						</div>
+							<div class="reveal large" id="exampleModal1" data-reveal>
+
+								<div class="grid-x grid-padding-x">
+									<div class="cell medium-5">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
+		 							</div>
+									<div class="cell medium-7">
+										<p>CPA <span class="yellow">//</span> CVA</p>
+										<h4><?php the_title(); ?></h4>
+										<div class="seperator"></div>
+										<p>Tom specializes in finance and taxation for small businesses, focusing on strategic planning, tax efficiency, and real estate. He also works with many individuals who hold real estate, receive equity compensation (RSUs, ESPPs, ISOs, NSOs), and have interests in pass-through businesses.
+
+		Outside of work, Tom reads as much as possible and tries unsuccessfully to keep up with his 3-year-old daughter and 4-year-old German Shorthaired Pointer. He’s an avid Bay Area sports fan, but not quite as big a fan as his wife, Lori.</p>
+		 							</div>
+								</div>
+
+							</div>
 
 					</div>
 
-			</div>
-			<div class="cell medium-4">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
-				<h4>Tom Castillo</h4>
-				<p>CPA <span class="yellow">//</span> CVA</p>
-				<a href="#">Read Bio</a>
-			</div>
-			<div class="cell medium-4">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
-				<h4>Tom Castillo</h4>
-				<p>CPA <span class="yellow">//</span> CVA</p>
-				<a href="#">Read Bio</a>
-			</div>
+
+					<?php
+							}
+						}
+						else {
+							echo 'There are currently no capabilities added.';
+						}
+					?>
+				 <?php wp_reset_query(); ?>
+
 		</div>
 	</div>
 

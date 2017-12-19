@@ -34,7 +34,7 @@ get_header(); ?>
 					 $my_capabilities->the_post();
 			?>
 
-			<div class="grid-x grid-padding-x">
+			<div class="grid-x grid-padding-x service-container">
 				<div class="cell medium-6 service-content">
 					<span class="small-intro"><?php the_field('small_header_text'); ?></span>
 					<h2><?php the_title(); ?></h2>
@@ -42,7 +42,7 @@ get_header(); ?>
 					<p class="large"><?php the_field('intro_text'); ?></p>
 					<a href="<?php the_field('link_to_service_page'); ?>" class="button">Learn More</a>
 				</div>
-				<div class="cell medium-6 bg_service-image" id="tax-prep">
+				<div class="cell medium-6 bg_service-image" style="background: url('<?php the_field('background_image'); ?>') center center;">
 
 				</div>
 			</div>
