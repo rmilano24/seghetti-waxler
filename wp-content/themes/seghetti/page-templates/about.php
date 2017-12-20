@@ -142,8 +142,8 @@ get_header(); ?>
 								<?php endif; ?>
 
 							<h4><?php the_title(); ?></h4>
-							<p><?php the_field('job_title'); ?></p>
-							<a data-open="<?php
+						  <div class="job-title"><?php the_field('job_title'); ?></div>
+							<a class="open-bio" data-open="<?php
     echo strtolower(str_replace(' ', '', the_title('', '', false)));
 ?>">Read Bio</a>
 
@@ -153,15 +153,17 @@ get_header(); ?>
 
 								<div class="grid-x grid-padding-x">
 									<div class="cell medium-5">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
+										<?php
+												$image = get_field('team_member_photo');
+												if( !empty($image) ): ?>
+												<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+												<?php endif; ?>
 		 							</div>
 									<div class="cell medium-7">
-										<p>CPA <span class="yellow">//</span> CVA</p>
-										<h4><?php the_title(); ?></h4>
+										<div class="job-title"><?php the_field('job_title'); ?></div>
+										<h2><?php the_title(); ?></h2>
 										<div class="seperator"></div>
-										<p>Tom specializes in finance and taxation for small businesses, focusing on strategic planning, tax efficiency, and real estate. He also works with many individuals who hold real estate, receive equity compensation (RSUs, ESPPs, ISOs, NSOs), and have interests in pass-through businesses.
-
-		Outside of work, Tom reads as much as possible and tries unsuccessfully to keep up with his 3-year-old daughter and 4-year-old German Shorthaired Pointer. He’s an avid Bay Area sports fan, but not quite as big a fan as his wife, Lori.</p>
+										<?php the_field('modal_bio_content'); ?>
 		 							</div>
 								</div>
 

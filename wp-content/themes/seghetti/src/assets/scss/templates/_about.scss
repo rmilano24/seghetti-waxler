@@ -1,0 +1,57 @@
+#meet-the-team {
+  padding-bottom: 10px;
+  img {
+    max-width: 300px;
+  }
+  h4 {
+    margin-bottom: 0px;
+  }
+  .job-title {
+    margin-bottom:20px;
+    ul {
+      margin: 0;
+    }
+    li {
+      display: inline;
+      &:after {
+        content: " //";
+        color: $yellow;
+      }
+      &:last-of-type {
+        &:after {
+          content: "";
+        }
+      }
+    }
+  }
+  .open-bio {
+    padding-bottom: 60px;
+    display: block;
+  }
+}
+.reveal {
+    h2 {
+      margin-bottom: 0px;
+    }
+  .job-title {
+    margin-bottom: 10px;
+    ul {
+      margin: 0;
+    }
+    li {
+      display: inline;
+      color: $black;
+      font-size: 14px;
+      font-weight: bold;
+      &:after {
+        content: " //";
+        color: $yellow;
+      }
+      &:last-of-type {
+        &:after {
+          content: "";
+        }
+      }
+    }
+  }
+}
