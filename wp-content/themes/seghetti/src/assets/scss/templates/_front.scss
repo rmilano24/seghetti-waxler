@@ -74,6 +74,15 @@
   }
 }
 
+.capabilities {
+  img {
+    margin-top: 60px;
+  }
+  h4 {
+    font-size: 18px
+  }
+}
+
 .testimonials {
   text-align: center;
   blockquote {
@@ -88,6 +97,10 @@
       color: $blue;
       font-size: 40px;
       line-height: 49px;
+      @include breakpoint(small) {
+        font-size: 24px;
+        line-height: 28px;
+      }
     }
   }
   .person {

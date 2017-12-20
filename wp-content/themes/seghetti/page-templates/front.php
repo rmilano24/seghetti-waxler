@@ -115,7 +115,7 @@ get_header(); ?>
 
 </section>
 
-<section class="serives bg_blue">
+<section class="capabilities bg_blue">
 
 
 	<div class="grid-container">
@@ -140,7 +140,7 @@ get_header(); ?>
 							 $my_capabilities->the_post();
 					?>
 
-					<div class="cell medium-3">
+					<div class="cell medium-6 large-3">
 						<?php
 								$image = get_field('thumbnail_image');
 								if( !empty($image) ): ?>

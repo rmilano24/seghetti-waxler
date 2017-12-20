@@ -88,6 +88,18 @@ section {
 .bg_blue {
   background: url('../images/bg_texture.png') top left repeat;
   color: $white;
+  h4 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .seperator {
+    margin: 12px 0 14px 0;
+    width: 20px;
+  }
   a {
     color: $yellow;
     text-transform: uppercase;
@@ -95,6 +107,7 @@ section {
     font-weight: bold;
   }
   .cta {
+    margin-top: 60px;
     .button {
       color: $white;
     }
