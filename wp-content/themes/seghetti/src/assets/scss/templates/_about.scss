@@ -1,7 +1,15 @@
 #meet-the-team {
   padding-bottom: 10px;
+  .leadin {
+    .seperator {
+      margin-bottom: 60px;
+    }
+  }
   img {
-    max-width: 300px;
+    width: 300px;
+    @include breakpoint(small only) {
+      width: 100%;
+    }
   }
   h4 {
     margin-bottom: 0px;
