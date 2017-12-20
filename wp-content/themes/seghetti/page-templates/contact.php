@@ -39,7 +39,7 @@ get_header(); ?>
 									<?php endif; ?>
 						</div>
 						<div class="auto cell">
-							<h5><?php the_field('contact_heading_one'); ?></h5>
+							<h4><?php the_field('contact_heading_one'); ?></h4>
 							<a target="_blank" href="mailto:<?php the_field('contact_link_one'); ?>"><?php the_field('contact_info_one'); ?></a>
 						</div>
 				</div>
@@ -53,7 +53,7 @@ get_header(); ?>
 									<?php endif; ?>
 						</div>
 						<div class="auto cell">
-							<h5><?php the_field('contact_heading_two'); ?></h5>
+							<h4><?php the_field('contact_heading_two'); ?></h4>
 							<a target="_blank" href="<?php the_field('contact_link_two'); ?>"><?php the_field('contact_info_two'); ?></a>
 						</div>
 				</div>
@@ -67,7 +67,7 @@ get_header(); ?>
 									<?php endif; ?>
 						</div>
 						<div class="auto cell">
-							<h5><?php the_field('contact_heading_three'); ?></h5>
+							<h4><?php the_field('contact_heading_three'); ?></h4>
 							<a target="_blank" href="tel:<?php the_field('contact_link_three'); ?>"><?php the_field('contact_info_three'); ?></a>
 						</div>
 				</div>

@@ -3,11 +3,25 @@
   padding-bottom: 0px;
   .contact-content {
     padding: 70px;
+    @include breakpoint(990px down) {
+      padding: 40px;
+    }
       .grid-x {
       margin-bottom: 60px;
       &:last-of-type {
         margin-bottom: 0px;
       }
+    h4 {
+      color: $blue;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    a {
+      color: $gray;
+      letter-spacing: 1px;
+    }
     }
   }
   .shrink {
@@ -41,5 +55,18 @@
     &::placeholder {
       color: #194A57;
     }
+    &:focus {
+      color: $white;
+      border-bottom: 3px solid $yellow;
+      &::placeholder {
+        color: $white;
+      }
+    }
+  }
+  .wpcf7-submit {
+    background: $yellow;
+    border-bottom: none;
+    color: $white;
+    padding: 15px 30px;
   }
 }

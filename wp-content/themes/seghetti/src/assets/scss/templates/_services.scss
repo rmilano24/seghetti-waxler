@@ -22,5 +22,11 @@
   }
   .service-content {
     padding: 100px;
+    @include breakpoint(990px down) {
+      padding: 80px;
+    }
+    @include breakpoint(small down) {
+      padding: 40px;
+    }
   }
 }
