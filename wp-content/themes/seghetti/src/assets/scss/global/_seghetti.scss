@@ -17,11 +17,11 @@
         color: $yellow;
       }
     }
-    .is-active {
-      a {
-        border-bottom: 3px solid $yellow;
-      }
-    }
+    // .is-active {
+    //   a {
+    //     border-bottom: 3px solid $yellow;
+    //   }
+    // }
   }
 }
 
@@ -53,9 +53,9 @@
 
 
   @include breakpoint(small) {
-    background: url('../images/bg_hero.jpg') bottom center;
+    background: url('../images/bg_hero.jpg') top center;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     padding: rem-calc(65%) 0;
     height: auto;
     position: relative;
@@ -63,9 +63,9 @@
   }
 
   @include breakpoint(medium) {
-    background: url('../images/bg_hero.jpg') bottom center;
+    background: url('../images/bg_hero.jpg') top center;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     max-height: 465px;
   }
 }
