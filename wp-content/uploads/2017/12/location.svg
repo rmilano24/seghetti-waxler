@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="68px" viewBox="0 0 69 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-100.000000, -815.000000)">
+        <g id="location" transform="translate(100.000000, 815.000000)">
+            <rect id="Rectangle-5-Copy" fill="#F9A829" x="0" y="0" width="69" height="68"></rect>
+            <g id="Group-11" transform="translate(17.000000, 17.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M21,9 C21,11.7614286 18.7614286,14 16,14 C13.2371429,14 11,11.7614286 11,9 C11,6.23857143 13.2371429,4 16,4 C18.7614286,4 21,6.23857143 21,9 L21,9 Z" id="Stroke-1569"></path>
+                <path d="M27,10.435312 C27,16.1993912 16.5007658,32 16.5007658,32 C16.5007658,32 6,16.1993912 6,10.435312 C6,4.67275495 10.6990008,0 16.5007658,0 C22.297936,0 27,4.67275495 27,10.435312 L27,10.435312 Z" id="Stroke-1570"></path>
+                <path d="M25.1086957,28 C30.9643478,28.4262036 35,29.3272823 35,30.3691134 C35,31.8226782 27.166087,33 17.5,33 C7.83543478,33 0,31.8226782 0,30.3691134 C0,29.3299132 4.00978261,28.4327808 9.8273913,28.0039463" id="Stroke-1571"></path>
+            </g>
+        </g>
+    </g>
+</svg>

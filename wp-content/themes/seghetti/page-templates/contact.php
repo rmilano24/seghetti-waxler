@@ -40,27 +40,35 @@ get_header(); ?>
 						</div>
 						<div class="auto cell">
 							<h5><?php the_field('contact_heading_one'); ?></h5>
-							<a target="_blank" href="mailto:<?php the_field('contact_info_one'); ?>"><?php the_field('contact_link_one'); ?></a>
+							<a target="_blank" href="mailto:<?php the_field('contact_link_one'); ?>"><?php the_field('contact_info_one'); ?></a>
 						</div>
 				</div>
 
 				<div class="grid-x small-12">
 						<div class="shrink cell">
-														<img src="https://cabrillofound.wpengine.com/wp-content/uploads/2017/10/icon-general-inquiries.svg" alt="general inquiries">
-													</div>
+							<?php
+									$image = get_field('contact_icon_two');
+									if( !empty($image) ): ?>
+									<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+									<?php endif; ?>
+						</div>
 						<div class="auto cell">
-							<h5>General Inquiries</h5>
-							<a target="_blank" href="mailto:foundation@cabrillo.edu">foundation@cabrillo.edu</a>
+							<h5><?php the_field('contact_heading_two'); ?></h5>
+							<a target="_blank" href="<?php the_field('contact_link_two'); ?>"><?php the_field('contact_info_two'); ?></a>
 						</div>
 				</div>
 
 				<div class="grid-x small-12">
 						<div class="shrink cell">
-														<img src="https://cabrillofound.wpengine.com/wp-content/uploads/2017/10/icon-general-inquiries.svg" alt="general inquiries">
-													</div>
+							<?php
+									$image = get_field('contact_icon_three');
+									if( !empty($image) ): ?>
+									<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+									<?php endif; ?>
+						</div>
 						<div class="auto cell">
-							<h5>General Inquiries</h5>
-							<a target="_blank" href="mailto:foundation@cabrillo.edu">foundation@cabrillo.edu</a>
+							<h5><?php the_field('contact_heading_three'); ?></h5>
+							<a target="_blank" href="tel:<?php the_field('contact_link_three'); ?>"><?php the_field('contact_info_three'); ?></a>
 						</div>
 				</div>
 

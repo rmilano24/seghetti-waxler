@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="68px" viewBox="0 0 69 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-100.000000, -681.000000)">
+        <g id="mail" transform="translate(100.000000, 681.000000)">
+            <rect id="Rectangle-5" fill="#F9A829" x="0" y="0" width="69" height="68"></rect>
+            <g id="Group-14" transform="translate(17.000000, 19.000000)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2">
+                <polygon id="Stroke-640" points="34 0 0 13.8846154 13.3043478 19"></polygon>
+                <polygon id="Stroke-641" points="35 0 29 27 14 18.972973"></polygon>
+                <polyline id="Stroke-642" points="14 19 14 32 19 22.25"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

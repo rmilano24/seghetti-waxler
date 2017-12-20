@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="68px" viewBox="0 0 69 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-100.000000, -949.000000)">
+        <g id="phone" transform="translate(100.000000, 949.000000)">
+            <rect id="Rectangle-5-Copy-3" fill="#F9A829" x="0" y="0" width="69" height="68"></rect>
+            <path d="M51.4347826,16.6100376 C53.9566087,17.1091761 56,19.426099 56,21.9200215 L56,25.4600107 C56,27.3946149 54.3437391,29 52.3478261,29 L46.8695652,29 C44.8754783,29 43.2173913,27.3946149 43.2173913,25.4600107 L43.2173913,22.8050188 C37.8030435,22.2846404 32.2006087,22.2846404 26.7826087,22.8050188 L26.7826087,25.4600107 C26.7826087,27.3946149 25.1245217,29 23.1304348,29 L17.6521739,29 C15.6562609,29 14,27.3946149 14,25.4600107 L14,21.9200215 C14,19.426099 16.0433913,17.1091761 18.5652174,16.6100376 C29.0670435,14.5356039 40.2006957,14.3922343 51.4347826,16.6100376 L51.4347826,16.6100376 Z" id="Stroke-5945" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Stroke-5946" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="23 38 28 38 28 34 23 34"></polygon>
+            <polygon id="Stroke-5947" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="32 38 38 38 38 34 32 34"></polygon>
+            <polygon id="Stroke-5948" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="41 38 47 38 47 34 41 34"></polygon>
+            <polygon id="Stroke-5949" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="23 45 28 45 28 41 23 41"></polygon>
+            <polygon id="Stroke-5950" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="32 45 38 45 38 41 32 41"></polygon>
+            <polygon id="Stroke-5951" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="41 45 47 45 47 41 41 41"></polygon>
+            <polygon id="Stroke-5952" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="23 53 28 53 28 49 23 49"></polygon>
+            <polygon id="Stroke-5953" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="32 53 38 53 38 49 32 49"></polygon>
+            <polygon id="Stroke-5954" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="41 53 47 53 47 49 41 49"></polygon>
+        </g>
+    </g>
+</svg>
