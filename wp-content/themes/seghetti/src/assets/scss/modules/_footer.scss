@@ -13,11 +13,11 @@
     width: 20%;
     &:first-of-type {
       width: 40%;
-      @include breakpoint(small down) {
+      @include breakpoint(990px down) {
         width: 100%;
       }
     }
-    @include breakpoint(small down) {
+    @include breakpoint(990px down) {
       width: 100%;
       margin-bottom: 20px;
       &:last-of-type {
@@ -54,15 +54,31 @@
     }
   }
   #foot2 {
-
+    @include breakpoint(990px down) {
+      width: 33.3333%;
+      @include breakpoint(small only) {
+      width: 100%;
+      }
+    }
   }
   #foot3 {
-
+    @include breakpoint(990px down) {
+      width: 33.3333%;
+      @include breakpoint(small only) {
+      width: 100%;
+      }
+    }
     address {
       font-style: normal;
     }
   }
   #foot4 {
+    @include breakpoint(990px down) {
+      width: 33.3333%;
+      @include breakpoint(small only) {
+      width: 100%;
+      }
+    }
     ul {
       li {
         display: inline-block;
