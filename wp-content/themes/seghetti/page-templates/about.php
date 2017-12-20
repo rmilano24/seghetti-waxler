@@ -135,12 +135,21 @@ get_header(); ?>
 					?>
 
 					<div class="cell medium-4">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/team-ph@2x.jpg" alt="Seghetti Waxler" />
-							<h4><?php the_title(); ?></h4>
-							<p>CPA <span class="yellow">//</span> CVA</p>
-							<a data-open="exampleModal1">Read Bio</a>
+						<?php
+								$image = get_field('team_member_photo');
+								if( !empty($image) ): ?>
+								<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+								<?php endif; ?>
 
-							<div class="reveal large" id="exampleModal1" data-reveal>
+							<h4><?php the_title(); ?></h4>
+							<p><?php the_field('job_title'); ?></p>
+							<a data-open="<?php
+    echo strtolower(str_replace(' ', '', the_title('', '', false)));
+?>">Read Bio</a>
+
+							<div class="reveal large" id="<?php
+    echo strtolower(str_replace(' ', '', the_title('', '', false)));
+?>" data-reveal>
 
 								<div class="grid-x grid-padding-x">
 									<div class="cell medium-5">
