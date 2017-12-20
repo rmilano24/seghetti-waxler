@@ -22,15 +22,44 @@ get_header(); ?>
 </header>
 
 
-<section class="services">
+<section class="contact">
 
 		<div class="grid-x grid-padding-x">
-			<div class="cell medium-6 service-content">
-				<span class="small-intro">Read to reach out?</span>
-				<h2>Get in touch</h2>
+			<div class="cell medium-6 contact-content">
+				<span class="small-intro"><?php the_field('section_one_small_text'); ?></span>
+				<h2><?php the_field('section_one_header'); ?></h2>
 				<div class="seperator"></div>
-				<p class="large">There are few things that keep us awake at night like our taxes. Let’s face it, whether you’re doing your taxes by yourself or paying someone to prepare them for you, it can be a miserable experience. At Seghetti Waxler, we aim to make that experience better.</p>
-				<a href="#" class="button">Learn More</a>
+
+				<div class="grid-x small-12">
+						<div class="shrink cell">
+														<img src="https://cabrillofound.wpengine.com/wp-content/uploads/2017/10/icon-general-inquiries.svg" alt="general inquiries">
+													</div>
+						<div class="auto cell">
+							<h5>General Inquiries</h5>
+							<a target="_blank" href="mailto:foundation@cabrillo.edu">foundation@cabrillo.edu</a>
+						</div>
+				</div>
+
+				<div class="grid-x small-12">
+						<div class="shrink cell">
+														<img src="https://cabrillofound.wpengine.com/wp-content/uploads/2017/10/icon-general-inquiries.svg" alt="general inquiries">
+													</div>
+						<div class="auto cell">
+							<h5>General Inquiries</h5>
+							<a target="_blank" href="mailto:foundation@cabrillo.edu">foundation@cabrillo.edu</a>
+						</div>
+				</div>
+
+				<div class="grid-x small-12">
+						<div class="shrink cell">
+														<img src="https://cabrillofound.wpengine.com/wp-content/uploads/2017/10/icon-general-inquiries.svg" alt="general inquiries">
+													</div>
+						<div class="auto cell">
+							<h5>General Inquiries</h5>
+							<a target="_blank" href="mailto:foundation@cabrillo.edu">foundation@cabrillo.edu</a>
+						</div>
+				</div>
+
 			</div>
 			<div class="cell medium-6 bg_blue" id="contact-form">
 				<?php echo do_shortcode("[contact-form-7 id='18' title='Contact Form']"); ?>
