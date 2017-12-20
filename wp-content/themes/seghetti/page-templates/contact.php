@@ -40,7 +40,7 @@ get_header(); ?>
 						</div>
 						<div class="auto cell">
 							<h4><?php the_field('contact_heading_one'); ?></h4>
-							<a target="_blank" href="mailto:<?php the_field('contact_link_one'); ?>"><?php the_field('contact_info_one'); ?></a>
+							<a href="mailto:<?php the_field('contact_link_one'); ?>"><?php the_field('contact_info_one'); ?></a>
 						</div>
 				</div>
 
