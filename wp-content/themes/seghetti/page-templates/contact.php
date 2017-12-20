@@ -32,11 +32,15 @@ get_header(); ?>
 
 				<div class="grid-x small-12">
 						<div class="shrink cell">
-														<img src="https://cabrillofound.wpengine.com/wp-content/uploads/2017/10/icon-general-inquiries.svg" alt="general inquiries">
-													</div>
+							<?php
+									$image = get_field('contact_icon_one');
+									if( !empty($image) ): ?>
+									<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+									<?php endif; ?>
+						</div>
 						<div class="auto cell">
-							<h5>General Inquiries</h5>
-							<a target="_blank" href="mailto:foundation@cabrillo.edu">foundation@cabrillo.edu</a>
+							<h5><?php the_field('contact_heading_one'); ?></h5>
+							<a target="_blank" href="mailto:<?php the_field('contact_info_one'); ?>"><?php the_field('contact_link_one'); ?></a>
 						</div>
 				</div>
 
