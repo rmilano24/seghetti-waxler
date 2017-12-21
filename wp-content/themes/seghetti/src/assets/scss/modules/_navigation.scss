@@ -1,53 +1,17 @@
-// Navigation breakpoints
-.mobile-menu,
-.site-title-bar {
-  @include hide-for(medium);
-}
-
-.desktop-menu,
-.site-navigation .top-bar-left {
-  @include show-for(medium);
-}
-
-// Site title
-.site-desktop-title a {
-  font-weight: bold;
-}
-
-// Mobile menu
-.mobile-menu {
-  display: none; // prevents repaint caused by JS hiding menu onload
-}
-
-.off-canvas {
-  > ul.menu {
-    height: 100vh;
-    padding: 1rem;
-
-    a {
-      color: $white;
-      font-weight: 600;
-      font-size: rem-calc(15);
-    }
-  }
-
-  .menu .active > a { background-color: #ccc; }
-
-}
-
-.title-bar-title {
-  a {
-    font-size: 1rem;
-    color: #B9B9B9;
+.desktop-nav {
+  @include breakpoint(900px down) {
+    display: none;
   }
 }
 
-.mobile-menu,
-.mobile-off-canvas-menu {
-
-  .menu .is-active > a {
-    background-color: lighten($dark-nav-color, 5%);
+#trigger-overlay {
+  @include breakpoint(901px up) {
+    display: none;
   }
+  right: 20px;
+  top: 20px;
+  text-outline: 100px;
+  background: transparent;
 }
 
 // Tablet and desktop menu
@@ -110,7 +74,6 @@
   width: 60px;
   height: 45px;
   position: relative;
-  margin: 50px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -120,15 +83,15 @@
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
+  z-index: 999;
 }
 
 #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 2px;
   width: 100%;
-  background: #d3531a;
-  border-radius: 9px;
+  background: #fff;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -183,7 +146,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(153,204,51,0.9);
+	background: $yellow;
   z-index: 5;
 }
 
@@ -292,6 +255,5 @@
 	}
 }
 #trigger-overlay {
-  z-index: 9999999 !important;
   position: absolute;
 }

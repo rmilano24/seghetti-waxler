@@ -27,11 +27,13 @@
 	<header class="site-header" role="banner">
 
 		<div class="grid-x grid-padding-x">
-		  <div class="small-4 cell">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/seghettiwaxler.svg" alt="Seghetti Waxler" /></a>
+		  <div class="small-8 cell">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+          <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/seghettiwaxler.svg" alt="Seghetti Waxler" width="251" height="42" />
+        </a>
 			</div>
 		  <div class="auto cell">
-				<nav>
+				<nav class="desktop-nav">
 					<?php foundationpress_top_bar_r(); ?>
 
 						<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
@@ -41,23 +43,19 @@
 		</div>
 
 </header>
-<!-- <a id="trigger-overlay" type="button">
+<a id="trigger-overlay" type="button" >
 <div id="nav-icon1">
 	<span></span>
 	<span></span>
 	<span></span>
 </div>
-</a> -->
+</a>
 <!-- open/close -->
 		<div class="overlay overlay-hugeinc">
 			<button type="button" class="overlay-close">Close</button>
 			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Clients</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
+				<?php foundationpress_top_bar_r(); ?>
+
+					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
 			</nav>
 		</div>
