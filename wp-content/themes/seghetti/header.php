@@ -27,11 +27,10 @@
 	<header class="site-header" role="banner">
 
 		<div class="grid-x grid-padding-x">
-		  <div class="small-8 cell">
+
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
           <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/seghettiwaxler.svg" alt="Seghetti Waxler" width="251" height="42" />
         </a>
-			</div>
 		  <div class="auto cell">
 				<nav class="desktop-nav">
 					<?php foundationpress_top_bar_r(); ?>

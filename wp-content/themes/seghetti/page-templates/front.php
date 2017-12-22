@@ -167,7 +167,7 @@ get_header(); ?>
 
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x cta">
-			<a class="button" href="<?php the_field('section_two_page_link	'); ?>"><?php the_field('section_two_button_text'); ?></a>
+			<a class="button" href="<?php the_field('section_two_page_link'); ?>"><?php the_field('section_two_button_text'); ?></a>
 		</div>
 	</div>
 
