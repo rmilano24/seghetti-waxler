@@ -88,6 +88,9 @@ section {
 .bg_blue {
   background: url('../images/bg_texture.png') top left repeat;
   color: $white;
+  img {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+  }
   h4 {
     font-size: 18px;
     letter-spacing: 4px;

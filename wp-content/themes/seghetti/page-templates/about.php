@@ -193,7 +193,7 @@ get_header(); ?>
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 			<div class="small-12 medium-6 medium-offset-2 cell"><h2>Ready to take the edge off?</h2></div>
-  		<div class="small-12 medium-4 cell"><a href="#" class="button">Get in touch</a></div>
+  		<div class="small-12 medium-4 cell"><a href="/contact-us/" class="button">Get in touch</a></div>
 		</div>
 	</div>
 </section>
