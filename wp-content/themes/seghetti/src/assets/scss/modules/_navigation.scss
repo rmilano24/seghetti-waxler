@@ -9,7 +9,7 @@
     display: none;
   }
   right: 20px;
-  top: 20px;
+  top: 32px;
   text-outline: 100px;
   background: transparent;
 }
@@ -71,8 +71,8 @@
 /* Icon 1 */
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
-  width: 60px;
-  height: 45px;
+  width: 30px;
+  height: 35px;
   position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -109,11 +109,11 @@
 }
 
 #nav-icon1 span:nth-child(2) {
-  top: 18px;
+  top: 8px;
 }
 
 #nav-icon1 span:nth-child(3) {
-  top: 36px;
+  top: 16px;
 }
 
 #nav-icon1.open span:nth-child(1) {
