@@ -166,6 +166,9 @@ get_header(); ?>
 										<?php the_field('modal_bio_content'); ?>
 		 							</div>
 								</div>
+								<button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
 
 							</div>
 
