@@ -41,8 +41,8 @@ get_header(); ?>
 
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x leadin">
-			<span class="small-intro"><?php the_field('section_two_small_text'); ?></span>
-			<?php the_field('section_two_header'); ?>
+			<span class="small-intro">Here’s what else we can help with</span>
+			<h2>Other <b>Services</b></h2>
 			<div class="seperator"></div>
 		</div>
 	</div>
@@ -88,7 +88,7 @@ get_header(); ?>
 
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x cta">
-			<a class="button" href="<?php the_field('section_two_page_link'); ?>"><?php the_field('section_two_button_text'); ?></a>
+			<a class="button" href="/services/">Learn More</a>
 		</div>
 	</div>
 

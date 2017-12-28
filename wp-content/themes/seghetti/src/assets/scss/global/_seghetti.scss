@@ -35,6 +35,17 @@
   img {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
   }
+  h2 {
+    &:after {
+      border-bottom: 3px solid #F9A829;
+      content: "";
+      /* background: yellow; */
+      height: 3px;
+      display: block;
+      max-width: 90px;
+      margin: 25px 0;
+    }
+  }
 }
 
 // inner page header
