@@ -1,18 +1,69 @@
 @font-face {
-  font-family: 'Akrobat';
-  src: url('/src/assets/fonts/Akrobat-Regular.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+   font-family: 'AkrobatBlack';
+      src: url('../fonts/Akrobat-Black.otf');
+
+   font-weight: normal;
+   font-style: normal;
 }
-// @font-face {
-//   font-family: 'DroidSerif';
-//   src: url('https://rawgit.com/google/fonts/master/ufl/ubuntumono/UbuntuMono-Italic.ttf') format('truetype');
-//   font-weight: bold;
-//   font-style: normal;
-// }
+
+@font-face {
+   font-family: 'AkrobatBold';
+      src: url('../fonts/Akrobat-Bold.otf');
+
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'AkrobatExtraBold';
+      src: url('../fonts/Akrobat-ExtraBold.otf');
+
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'AkrobatExtraLight';
+      src: url('../fonts/Akrobat-ExtraLight.otf');
+
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'AkrobatLight';
+      src: url('../fonts/Akrobat-Light.otf');
+
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'AkrobatRegular';
+      src: url('../fonts/Akrobat-Regular.otf');
+
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'AkrobatSemiBold';
+      src: url('../fonts/Akrobat-SemiBold.otf');
+
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'AkrobatThin';
+      src: url('../fonts/Akrobat-Thin.otf');
+
+   font-weight: normal;
+   font-style: normal;
+}
 
 body {
-  font-family: 'akrobat';
+  font-family: 'AkrobatBlack';
   color: $gray;
   font-size: 16px;
   letter-spacing: 1px;
