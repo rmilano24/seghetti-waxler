@@ -53,6 +53,7 @@
     position: relative;
     &:nth-child(1) {
       &:before {
+        font-family: 'AkrobatBlack';
         content: "01";
         font-size: 160px;
         display: block;
@@ -65,6 +66,7 @@
     }
     &:nth-child(2) {
       &:before {
+        font-family: 'AkrobatBlack';
         content: "02";
         font-size: 160px;
         display: block;
@@ -77,6 +79,7 @@
     }
     &:nth-child(3) {
       &:before {
+        font-family: 'AkrobatBlack';
         content: "03";
         font-size: 160px;
         display: block;
@@ -89,6 +92,7 @@
     }
     &:nth-child(4) {
       &:before {
+        font-family: 'AkrobatBlack';
         content: "04";
         font-size: 160px;
         display: block;

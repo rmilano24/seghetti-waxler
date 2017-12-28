@@ -94,10 +94,13 @@
     text-align: center;
     border-left: none;
     p {
+      font-family: 'AkrobatLight';
+      font-size: 40px;
+      line-height: 49px;
       color: $blue;
       font-size: 40px;
       line-height: 49px;
-      @include breakpoint(small) {
+      @include breakpoint(small only) {
         font-size: 24px;
         line-height: 28px;
       }
