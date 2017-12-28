@@ -30,3 +30,62 @@
     }
   }
 }
+
+
+.capabilities {
+  .cell {
+    position: relative;
+    &:nth-child(1) {
+      &:before {
+        content: "01";
+        font-size: 160px;
+        display: block;
+        position: absolute;
+        right: -12px;
+        color: #1F6176;
+        font-weight: bold;
+        top: -73px;
+      }
+    }
+    &:nth-child(2) {
+      &:before {
+        content: "02";
+        font-size: 160px;
+        display: block;
+        position: absolute;
+        right: -12px;
+        color: #1F6176;
+        font-weight: bold;
+        top: -73px;
+      }
+    }
+    &:nth-child(3) {
+      &:before {
+        content: "03";
+        font-size: 160px;
+        display: block;
+        position: absolute;
+        right: -12px;
+        color: #1F6176;
+        font-weight: bold;
+        top: -73px;
+      }
+    }
+    &:nth-child(4) {
+      &:before {
+        content: "04";
+        font-size: 160px;
+        display: block;
+        position: absolute;
+        right: -12px;
+        color: #1F6176;
+        font-weight: bold;
+        top: -73px;
+      }
+    }
+    img {
+      z-index: 1;
+      position: relative;
+    }
+  }
+}
