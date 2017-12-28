@@ -11,7 +11,10 @@
       }
     }
   }
-  
+  h2 {
+    position: relative;
+    z-index: 2;
+  }
   padding: 0;
   .bg_service-image {
     min-height: 695px
@@ -22,6 +25,19 @@
   }
   .service-content {
     padding: 100px;
+    position: relative;
+    // &:nth-child(1) {
+    //   &:before {
+    //     content: "01";
+    //     font-size: 160px;
+    //     display: block;
+    //     position: absolute;
+    //     left: 50px;
+    //     color: #ECECEB;
+    //     font-weight: bold;
+    //     top: -10px;
+    //   }
+    // }
     @include breakpoint(990px down) {
       padding: 80px;
     }
